@@ -81,15 +81,6 @@
   background: var(--gray-200);
 }
 
-.close-button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-}
 
 .profile-form {
   display: flex;
