@@ -63,7 +63,7 @@ const UserProfile = () => {
       </div>
 
       <button className="save-button" style={{backgroundColor: '#ffffff'}}>
-        <span style={{fontFamily: 'Poppins, sans-serif', fontSize: '12px', backgroundColor: 'rgb(12, 13, 14)', color: 'white', padding: '2px 4px', borderRadius: '3px'}}>
+        <span style={{fontFamily: 'Poppins, sans-serif', fontSize: '12px', backgroundColor: 'rgb(12, 13, 14)'}}>
           Cancel Membership
         </span>
       </button>
