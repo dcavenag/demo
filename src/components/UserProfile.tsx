@@ -1,5 +1,6 @@
 import EditIcon from './icons/EditIcon'
 import CloseIcon from './icons/CloseIcon'
+import './UserProfile.css'
 
 const UserProfile = () => {
   return (

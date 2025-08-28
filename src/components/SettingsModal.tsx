@@ -1,5 +1,6 @@
 import CloseIcon from './icons/CloseIcon'
 import ChevronDownIcon from './icons/ChevronDownIcon'
+import './SettingsModal.css'
 
 interface SettingsModalProps {
   onClose: () => void

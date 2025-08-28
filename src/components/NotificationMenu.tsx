@@ -1,3 +1,5 @@
+import './NotificationMenu.css'
+
 interface NotificationMenuProps {
   onClose: () => void
 }
