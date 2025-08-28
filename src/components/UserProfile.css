@@ -1,8 +1,8 @@
 .user-profile-container {
   position: absolute;
-  right: 40px;
-  top: 50%;
-  transform: translateY(-50%);
+  left: 511px;
+  top: 374px;
+  transform: translateY(-289px);
   width: 552px;
   background: white;
   border-radius: 12px;
