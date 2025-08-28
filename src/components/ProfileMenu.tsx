@@ -1,6 +1,5 @@
 import UserIcon from './icons/UserIcon'
 import SettingsIcon from './icons/SettingsIcon'
-import BellIcon from './icons/BellIcon'
 import LogOutIcon from './icons/LogOutIcon'
 import ChevronRightIcon from './icons/ChevronRightIcon'
 import './ProfileMenu.css'

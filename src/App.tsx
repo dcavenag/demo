@@ -2,7 +2,6 @@ import { useState } from 'react'
 import UserProfile from './components/UserProfile'
 import ProfileMenu from './components/ProfileMenu'
 import SettingsModal from './components/SettingsModal'
-import NotificationMenu from './components/NotificationMenu'
 import MyComponent from './routes/index'
 import './App.css'
 
