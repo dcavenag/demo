@@ -26,21 +26,35 @@ const UserProfile = () => {
 
       <div className="profile-form">
         <div className="form-field">
-          <span className="field-label" style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>Email</span>
-          <span className="field-value" style={{fontSize: '14px'}}>yourname@gmail.com</span>
+          <div className="field-label">
+            <span style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>
+              Email
+            </span>
+          </div>
+          <div className="field-value">
+            <span style={{fontSize: '14px'}}>yourname@gmail.com</span>
+          </div>
         </div>
         <div className="field-divider"></div>
 
         <div className="form-field">
-          <span className="field-label" style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>Membership type</span>
-          <span className="field-value">Annual</span>
+          <div className="field-label">
+            <span style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>
+              Membership type
+            </span>
+          </div>
+          <div className="field-value">Annual</div>
         </div>
         <div className="field-divider"></div>
 
         <div className="form-field mobile-field">
-          <span className="field-label" style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>Membership expires at</span>
+          <div className="field-label">
+            <span style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>
+              Membership expires at
+            </span>
+          </div>
           <div className="mobile-info">
-            <span className="field-value">6/10/2029</span>
+            <div className="field-value">6/10/2029</div>
           </div>
         </div>
         <div className="field-divider"></div>
