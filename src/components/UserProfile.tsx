@@ -43,14 +43,26 @@ const UserProfile = () => {
         </div>
         <div className="field-divider"></div>
 
-        <div className="form-field"></div>
+        <div className="form-field">
+          <button className="save-button" style={{
+            alignSelf: 'end',
+            backgroundColor: 'rgba(3, 0, 0, 1)',
+            borderRadius: '16px',
+            marginLeft: 'auto',
+            width: '100%'
+          }}>
+            <div style={{
+              display: 'inline',
+              backgroundColor: 'rgb(12, 13, 14)',
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '12px',
+              fontWeight: '600'
+            }}>
+              Cancel Membership
+            </div>
+          </button>
+        </div>
       </div>
-
-      <button className="save-button" style={{backgroundColor: '#ffffff'}}>
-        <span style={{fontFamily: 'Poppins, sans-serif', fontSize: '12px', backgroundColor: 'rgb(12, 13, 14)'}}>
-          Cancel Membership
-        </span>
-      </button>
     </div>
   )
 }
