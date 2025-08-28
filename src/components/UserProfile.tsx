@@ -25,11 +25,11 @@ const UserProfile = () => {
         <div className="form-field">
           <div className="field-label">
             <span style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>
-              Email
+              Membership type
             </span>
           </div>
           <div className="field-value">
-            <span style={{fontSize: '14px'}}>yourname@gmail.com</span>
+            <span style={{fontSize: '16px'}}>Annual</span>
           </div>
         </div>
         <div className="field-divider"></div>
@@ -37,22 +37,10 @@ const UserProfile = () => {
         <div className="form-field">
           <div className="field-label">
             <span style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>
-              Membership type
-            </span>
-          </div>
-          <div className="field-value">Annual</div>
-        </div>
-        <div className="field-divider"></div>
-
-        <div className="form-field mobile-field">
-          <div className="field-label">
-            <span style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>
               Membership expires at
             </span>
           </div>
-          <div className="mobile-info">
-            <div className="field-value">6/10/2029</div>
-          </div>
+          <div className="field-value">6/10/2029</div>
         </div>
         <div className="field-divider"></div>
 
