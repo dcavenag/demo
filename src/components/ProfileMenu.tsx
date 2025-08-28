@@ -35,17 +35,17 @@ const ProfileMenu = ({ onClose }: ProfileMenuProps) => {
         <div className="menu-item">
           <div className="menu-item-content">
             <SettingsIcon />
-            <span className="menu-item-text">Settings</span>
+            <span className="menu-item-text">Trader Profile</span>
           </div>
           <ChevronRightIcon />
         </div>
 
-        <div className="menu-item notification-item">
+        <div className="menu-item">
           <div className="menu-item-content">
-            <BellIcon />
-            <span className="menu-item-text">Notification</span>
+            <SettingsIcon />
+            <span className="menu-item-text">Connect exchange</span>
           </div>
-          <span className="notification-status">Allow</span>
+          <ChevronRightIcon />
         </div>
 
         <div className="menu-item">

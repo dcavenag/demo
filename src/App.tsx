@@ -9,7 +9,6 @@ import './App.css'
 function App() {
   const [showProfileMenu, setShowProfileMenu] = useState(true)
   const [showSettingsModal, setShowSettingsModal] = useState(true)
-  const [showNotificationMenu, setShowNotificationMenu] = useState(true)
 
   return (
     <div className="app-container">
@@ -19,9 +18,6 @@ function App() {
       )}
       {showSettingsModal && (
         <SettingsModal onClose={() => setShowSettingsModal(false)} />
-      )}
-      {showNotificationMenu && (
-        <NotificationMenu onClose={() => setShowNotificationMenu(false)} />
       )}
     </div>
   )
