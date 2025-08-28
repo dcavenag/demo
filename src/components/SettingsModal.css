@@ -1,0 +1,83 @@
+.settings-modal-container {
+  position: absolute;
+  left: 165px;
+  top: 455px;
+  width: 308px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px 15px;
+  box-shadow: 4px 8px 32px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings-title {
+  color: var(--gray-800);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.settings-close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-divider {
+  width: 100%;
+  height: 1px;
+  background: var(--gray-200);
+}
+
+.settings-options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.settings-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option-label {
+  color: var(--gray-800);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.option-value {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.option-text {
+  color: var(--gray-600);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+@media (max-width: 768px) {
+  .settings-modal-container {
+    position: static;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+}
