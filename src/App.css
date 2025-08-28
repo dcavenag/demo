@@ -1,8 +1,9 @@
 .app-container {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 1200px;
+  height: 1301px;
   overflow: hidden;
+  background-color: rgba(229, 229, 229, 1);
 }
 
 @media (max-width: 768px) {
