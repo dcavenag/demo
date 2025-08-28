@@ -19,9 +19,6 @@ const UserProfile = () => {
           </div>
         </div>
         <div className="header-divider"></div>
-        <button className="close-button">
-          <CloseIcon />
-        </button>
       </div>
 
       <div className="profile-form">
