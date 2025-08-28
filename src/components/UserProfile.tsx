@@ -26,34 +26,30 @@ const UserProfile = () => {
 
       <div className="profile-form">
         <div className="form-field">
-          <span className="field-label">Name</span>
-          <span className="field-value">your name</span>
+          <span className="field-label" style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>Email</span>
+          <span className="field-value" style={{fontSize: '14px'}}>yourname@gmail.com</span>
         </div>
         <div className="field-divider"></div>
 
         <div className="form-field">
-          <span className="field-label">Email account</span>
-          <span className="field-value email">yourname@gmail.com</span>
+          <span className="field-label" style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>Membership type</span>
+          <span className="field-value">Annual</span>
         </div>
         <div className="field-divider"></div>
 
         <div className="form-field mobile-field">
-          <span className="field-label">Mobile number</span>
+          <span className="field-label" style={{color: 'rgb(107, 114, 128)', fontFamily: 'Poppins, sans-serif', fontSize: '12px', textWrap: 'nowrap'}}>Membership expires at</span>
           <div className="mobile-info">
-            <span className="field-value">Add number</span>
-            <span className="location-info">USA</span>
+            <span className="field-value">6/10/2029</span>
           </div>
         </div>
         <div className="field-divider"></div>
-
-        <div className="form-field">
-          <span className="field-label">Location</span>
-          <span className="field-value">USA</span>
-        </div>
       </div>
 
-      <button className="save-button">
-        Save Change
+      <button className="save-button" style={{backgroundColor: '#ffffff'}}>
+        <span style={{fontFamily: 'Poppins, sans-serif', fontSize: '12px', backgroundColor: 'rgb(12, 13, 14)', color: 'white', padding: '2px 4px', borderRadius: '3px'}}>
+          Cancel Membership
+        </span>
       </button>
     </div>
   )
