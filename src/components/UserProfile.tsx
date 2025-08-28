@@ -58,6 +58,8 @@ const UserProfile = () => {
           </div>
         </div>
         <div className="field-divider"></div>
+
+        <div className="form-field"></div>
       </div>
 
       <button className="save-button" style={{backgroundColor: '#ffffff'}}>
